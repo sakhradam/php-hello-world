@@ -9,12 +9,9 @@
   function helloWorld($name = null)
   {
     if ($name === null){
-      echo "Hello, World!";
+      return "Hello, World!";
     }
     else {
-      echo "Hello!". " ".($name);
+      return "Hello!". " ".($name);
     }
   }
-  helloWorld();
-
-?>
